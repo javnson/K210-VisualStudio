@@ -1,0 +1,25 @@
+{
+  // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
+  "configurations": [
+    {
+      "name": "K210_Release",
+      "generator": "MinGW Makefiles",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\build",
+      // Change Project name here
+      "cmakeCommandArgs": "-DPROJ=hello_world",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "K210_Debug",
+      "generator": "MinGW Makefiles",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\build",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    }
+
+  ]
+}
